@@ -1,0 +1,9 @@
+SCENARIU TEST: Verificare integritate API
+
+PASUL 1: Defineste URL-ul tinta: https://jsonplaceholder.typicode.com/todos/1
+PASUL 2: Executa o metoda de tip HTTP GET catre acest URL.
+PASUL 3: Extrage Status Code-ul din raspunsul primit.
+        ASSERT: Verifica daca Status Code este egal cu 200.
+PASUL 4: Analizeaza corpul raspunsului (JSON).
+        ASSERT: Verifica daca JSON-ul contine campul numit "title".
+PASUL 5: Logheaza rezultatul final (Succes/Esec).
