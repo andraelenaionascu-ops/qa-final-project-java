@@ -1,4 +1,4 @@
-env: "staging"
+env: "qa"
 service:
   baseUrl: "https://apps.qualiadept.eu/hapifyme"
 timeouts:
